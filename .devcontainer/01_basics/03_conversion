@@ -1,0 +1,21 @@
+ let score = '33'
+ console.log (typeof score)
+    //or
+console.log(typeof (score))
+       // type casting 
+let val = Number(score)
+console.log(typeof(val))
+//  "33"=> 33
+// "33abc" => NaN (not a number)
+// true => 1; false => 0
+let log  = 1
+let b = Boolean(log)
+console.log(b)
+// for boolean
+// "" => false
+//"sonia"=> true 
+//1=> true ; 2=> false
+let someNumber  = 42
+let stringConversion = String(someNumber)
+console.log(stringConversion);
+console.log(typeof(stringConversion));
