@@ -53,4 +53,5 @@ console.log(newDate.toLocaleString('default',
     weekday:"long"
 }
 ))
+console.log("Sonia")
 
