@@ -22,7 +22,7 @@ console.log(typeof(date)); // interview
 let createDate = new Date (2025,3,17)
 console.log(createDate.toLocaleDateString())
 // SEVERAL OTHER WAYS TO CREATE STRINGS
-let createDate1 = new Date (2025,3,17,12,02)//(yr,month,date,hrs,sec);
+let createDate1 = new Date (2025,3,17,12,2)//(yr,month,date,hrs,sec);
 console.log(`date + hrs and sec ${createDate1.toLocaleString()}`)
 let createDate2  = new Date("2025-01-30")//if we are declaring it like this the nums start from 1 (yr-mm-day)
 console.log(createDate2.toLocaleDateString());
