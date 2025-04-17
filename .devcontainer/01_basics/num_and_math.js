@@ -26,7 +26,7 @@ to from the beginning dosent matter where
  //++++++++++++++++++++++++  Maths+++++++++++++++++++++
  //Math is a object 
  console.log(">>>MATHS<<<")
- console.log(Math.abs(-4))//-ve to +ve .. +ve to -ve
+ console.log(Math.abs(-4))//-ve to +ve .. +ve to +ve
  console.log(Math.round(4.6));//roundds up 
  /* can use Math.ceil(number) and Math.floor(number)*/
  console.log(Math.min(2,3,4,10));
