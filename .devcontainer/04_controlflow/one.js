@@ -1,5 +1,5 @@
 // control or logic flow 
-// >,<,<=,>=,==,!=,===(checks type),!==(checks neg sign)
+// >,<,<=,>=,==,!=,===(checks type),!==(checks neg sign),??
 // &&,||
 //if
 /*
@@ -67,3 +67,19 @@ else{
  {
     console.log("allow to buy")
  }
+ // Nullish Coalescing Operator (??): null undefined
+ let val1;
+ val1 = 5??10
+ console.log(val1)
+ val2 = null ?? 15 
+ console.log(val2)
+ val3 = undefined ?? 20
+ console.log(val3)
+ val4 = null ?? 25 ?? 30
+ console.log(val4)
+
+ //terniary operator 
+ /*syntax - condition(statement) ? true(statement): flase(statement)  */
+
+ const price = 100;
+ price <=80 ? console.log("less than 80") : console.log("More than 80")
